@@ -98,8 +98,37 @@ MAIN SECTION
 	background: #ffffff;
 	padding: 20px;
 }
+.content-box li {
+	display: inline;
+}
+
+.icon {
+	width:40px;
+}
 
 h1 {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.about-img {
+	float: left;
+	margin-right:20px;
+}
+
+.content-main {
+	padding-top:20px;
+	line-height: 30px;
+}
+
+.contact {
+	width:100%;
+}
+
+.contact input,
+.contact textarea {
+	width:100%;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left:5px;
 }
